@@ -10,6 +10,7 @@ class CountryService {
 
    List data = response.data;
 
+   print(data.first);
   return data.map((json) {
     return Country.fromJson(json);
   }).toList();
