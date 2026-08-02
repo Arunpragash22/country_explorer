@@ -1,7 +1,3 @@
-சரி 👍 **assessment requirement-க்கு மட்டும் தேவையான clean final `README.md`** இதுதான்.
-
-உன் existing `README.md`-ஐ முழுவதும் replace பண்ணி இதை paste பண்ணு:
-
 ````markdown
 # Country Explorer
 
