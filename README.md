@@ -160,20 +160,26 @@ The `screens` folder contains the user interface screens of the application.
 
 ### Splash Screen
 
-*Add screenshot here.*
+![Splash Screen](screenshots/splash.jpeg)
+
 
 ### Home Screen
 
-*Add screenshot here.*
+![Home Screen](screenshots/home.jpeg)
 
 ### Search
 
-*Add screenshot here.*
+![Search](screenshots/search.jpeg)
 
 ### Country Details
 
-*Add screenshot here.*
+![Country Details](screenshots/details.jpeg)
 
 ### Bucket List
 
-*Add screenshot here.*
+![Favorite Countries](screenshots/bucketlist.jpeg)
+
+### no results List
+
+![No results](screenshots/no_results.jpeg)
+
