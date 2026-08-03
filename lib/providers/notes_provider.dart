@@ -17,12 +17,24 @@ class NotesNotifier extends StateNotifier<Map<String, String>> {
     final data = Map<String, String>.from(
       box.get('notes', defaultValue: {}),
     );
+
     state = data;
   }
 
   void saveNote(String country, String note) {
     final updated = {...state};
+
     updated[country] = note;
+
+    state = updated;
+
+    box.put('notes', updated);
+  }
+
+  void deleteNote(String country) {
+    final updated = {...state};
+
+    updated.remove(country);
 
     state = updated;
 

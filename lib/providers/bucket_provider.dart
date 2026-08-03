@@ -24,6 +24,7 @@ class BucketNotifier extends StateNotifier<List<String>> {
     }
   }
 
+
   void removeCountry(String country) {
     state = state.where((e) => e != country).toList();
     box.put('countries', state);
